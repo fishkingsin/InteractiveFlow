@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XML>
+	<IP>127.0.0.1</IP>
+	<PORT>2838</PORT>
+	<IDLE>300</IDLE>
+	<SCREENSAVER>./data/movies/Quene point test.flv</SCREENSAVER>
+	<!-- page 1 language button -->
+	<PAGE name="p0">
+		<!--page1-->
+		<BUTTON name="p0_btn_1">
+			<SHOW_LABLE>0</SHOW_LABLE><X>1820</X><Y>490</Y>
+			<IMAGES>
+				<FILE>./data/images/lanbtn_cn_l.png</FILE>
+				<FILE>./data/images/lanbtn_cn_l.png</FILE>
+			</IMAGES>
+			<CAPTION>
+				<CHIT>中文</CHIT>
+			</CAPTION>
+			<FILES>
+				<CHIT>./data/movies/video_002.mp4</CHIT>
+			</FILES>
+			<NEXT_PAGE>p_1</NEXT_PAGE>
+			<MESSAGE>A</MESSAGE>
+		</BUTTON>
+		<BUTTON name="p0_btn_2">
+			<SHOW_LABLE>0</SHOW_LABLE><X>1820</X><Y>590</Y>
+			<IMAGES>
+				<FILE>./data/images/lanbtn_en_l.png</FILE>
+				<FILE>./data/images/lanbtn_en_l.png</FILE>
+			</IMAGES>
+			<CAPTION>
+				<ENG>ENG</ENG>
+			</CAPTION>
+			<FILES>
+				<CHIT>./data/movies/video_003.mp4</CHIT>
+			</FILES>
+			<NEXT_PAGE>p_2</NEXT_PAGE>
+			<MESSAGE>B</MESSAGE>
+		</BUTTON>
+		<BACKGROUND>
+			<IMAGES>
+				<FILE>./data/images/attraction.png</FILE>
+				<FILE>./data/images/attraction.png</FILE>
+			</IMAGES>
+		</BACKGROUND>
+	</PAGE>
+	<PAGE  name="p_1">
+		<BACKGROUND>
+			<IMAGES>
+				<FILE>./data/images/frame_cn.png</FILE>
+				<FILE>./data/images/frame_en.png</FILE>
+			</IMAGES>
+		</BACKGROUND>
+		<!--page2-->
+		
+		<!-- <BUTTON name="p_1_btn_1">
+			<SHOW_LABLE>0</SHOW_LABLE><X>960</X><Y>62</Y>
+			<IMAGES>
+				<FILE>./data/images/btn_1_cn.png</FILE>
+				<FILE>./data/images/btn_1_on_cn.png</FILE>
+			</IMAGES>
+			<CAPTION>
+				<CHIT>地下運輸</CHIT>
+				<ENG>Underground Trasnportation</ENG>
+			</CAPTION>
+			<FILES>
+				<CHIT>./data/movies/video_008.mp4</CHIT>
+			</FILES>
+			<NEXT_PAGE>p_1_1</NEXT_PAGE>
+			<MESSAGE>C</MESSAGE>
+		</BUTTON> -->
+		<!-- <BUTTON name="p_1_btn_6">
+			<SHOW_LABLE>0</SHOW_LABLE>
+			<IMAGES>
+				<FILE>./data/images/btn_6_cn.png</FILE>
+				<FILE>./data/images/btn_6_on_cn.png</FILE>
+			</IMAGES><X>960</X><Y>492</Y>
+			<CAPTION>
+				<CHIT>電訊傳輸</CHIT>
+				<ENG>Data Communication</ENG>
+			</CAPTION>
+			<FILES>
+				<CHIT>./data/movies/video_019.mp4</CHIT>
+			</FILES>
+			<NEXT_PAGE>p_1_6</NEXT_PAGE>
+			<MESSAGE>F</MESSAGE>
+		</BUTTON> -->
+		<BUTTON name="home">
+			<SHOW_LABLE>0</SHOW_LABLE>
+			<IMAGES>
+				<FILE>./data/images/home_cn.png</FILE>
+				<FILE>./data/images/home_cn.png</FILE>
+			</IMAGES>
+			<IMAGES>
+				<FILE>./data/images/home_en.png</FILE>
+				<FILE>./data/images/home_en.png</FILE>
+			</IMAGES><X>1750</X><Y>520</Y>
+			<CAPTION>
+				<CHIT>主頁</CHIT>
+				<ENG>Home</ENG>
+			</CAPTION>
+			<FILES>
+				<CHIT>./data/movies/screenSaver.mp4</CHIT>
+			</FILES>
+			<NEXT_PAGE>p_0</NEXT_PAGE>
+			<MESSAGE>A</MESSAGE>
+		</BUTTON>
+		
+		<LIST>
+			<X>960</X><Y>62</Y>
+			<BUTTON name="p_1_btn_6_1">
+				<IMAGES>
+					<FILE>./data/images/btn_6_cn.png</FILE>
+					<FILE>./data/images/btn_6_on_cn.png</FILE>
+				</IMAGES>
+				<FILES>
+					<CHIT>./data/movies/video_019.mp4</CHIT>
+				</FILES>
+				<NEXT_PAGE>-1</NEXT_PAGE>
+				<MESSAGE>F</MESSAGE>
+			</BUTTON>
+			<BUTTON name="p_1_btn_6_2">
+				<IMAGES>
+					<FILE>./data/images/btn_6_cn.png</FILE>
+					<FILE>./data/images/btn_6_on_cn.png</FILE>
+				</IMAGES>
+				<FILES>
+					<CHIT>./data/movies/video_019.mp4</CHIT>
+				</FILES>
+				<NEXT_PAGE>p_1_1</NEXT_PAGE>
+				<MESSAGE>F</MESSAGE>
+			</BUTTON>
+			<BUTTON name="p_1_btn_6_3">
+				<IMAGES>
+					<FILE>./data/images/btn_6_cn.png</FILE>
+					<FILE>./data/images/btn_6_on_cn.png</FILE>
+				</IMAGES>
+				<FILES>
+					<CHIT>./data/movies/video_019.mp4</CHIT>
+				</FILES>
+				<NEXT_PAGE>-1</NEXT_PAGE>
+				<MESSAGE>F</MESSAGE>
+			</BUTTON>
+		</LIST>
+		<LIST>
+			<X>960</X><Y>140</Y>
+			<BUTTON name="p_1_btn_6_1">
+				<IMAGES>
+					<FILE>./data/images/btn_6_cn.png</FILE>
+					<FILE>./data/images/btn_6_on_cn.png</FILE>
+				</IMAGES>
+				<FILES>
+					<CHIT>./data/movies/video_019.mp4</CHIT>
+				</FILES>
+				<NEXT_PAGE>-1</NEXT_PAGE>
+				<MESSAGE>F</MESSAGE>
+			</BUTTON>
+			<BUTTON name="p_1_btn_6_2">
+				<IMAGES>
+					<FILE>./data/images/btn_6_cn.png</FILE>
+					<FILE>./data/images/btn_6_on_cn.png</FILE>
+				</IMAGES>
+				<FILES>
+					<CHIT>./data/movies/video_019.mp4</CHIT>
+				</FILES>
+				<NEXT_PAGE>p_1_1</NEXT_PAGE>
+				<MESSAGE>F</MESSAGE>
+			</BUTTON>
+			<BUTTON name="p_1_btn_6_3">
+				<IMAGES>
+					<FILE>./data/images/btn_6_cn.png</FILE>
+					<FILE>./data/images/btn_6_on_cn.png</FILE>
+				</IMAGES>
+				<FILES>
+					<CHIT>./data/movies/video_019.mp4</CHIT>
+				</FILES>
+				<NEXT_PAGE>-1</NEXT_PAGE>
+				<MESSAGE>F</MESSAGE>
+			</BUTTON>
+		</LIST>
+	</PAGE>
+	<PAGE name="p_1_1">
+		<BACKGROUND>
+			<IN>
+				<X>0</X><Y>0</Y>
+			</IN>
+			<OUT>
+				<X>-960</X><Y>0</Y>
+			</OUT>
+			<IMAGES>
+				<FILE>./data/images/background_cn.png</FILE>
+				<FILE>./data/images/background_en.png</FILE>
+			</IMAGES>
+		</BACKGROUND>
+		<!--page3-->
+		<BUTTON name="p_1_1_btn_1">
+			<SHOW_LABLE>0</SHOW_LABLE><X>960</X><Y>62</Y>
+			<IMAGES>
+				<FILE>./data/images/btn_1_cn.png</FILE>
+				<FILE>./data/images/btn_1_on_cn.png</FILE>
+			</IMAGES>
+			<CAPTION>
+				<CHIT>地下運輸</CHIT>
+				<ENG>Underground Trasnportation</ENG>
+			</CAPTION>
+			<FILES>
+				<CHIT>./data/movies/video_008.mp4</CHIT>
+			</FILES>
+			<NEXT_PAGE>p_1_1_1</NEXT_PAGE>
+			<MESSAGE>A</MESSAGE>
+		</BUTTON>
+		<BUTTON name="p_1_1_btn_2">
+			<SHOW_LABLE>0</SHOW_LABLE>
+			<IMAGES>
+				<FILE>./data/images/btn_2_cn.png</FILE>
+				<FILE>./data/images/btn_2_on_cn.png</FILE>
+			</IMAGES><X>960</X><Y>148</Y>
+			<CAPTION>
+				<CHIT>電力供應</CHIT>
+				<ENG>Electric Supply</ENG>
+			</CAPTION>
+			<FILES>
+				<CHIT>./data/movies/video_010.mp4</CHIT>
+			</FILES>
+			<NEXT_PAGE>-1</NEXT_PAGE>
+			<MESSAGE>A</MESSAGE>
+		</BUTTON>
+		<BUTTON name="p_1_1_btn_3">
+			<SHOW_LABLE>0</SHOW_LABLE>
+			<IMAGES>
+				<FILE>./data/images/btn_3_cn.png</FILE>
+				<FILE>./data/images/btn_3_on_cn.png</FILE>
+			</IMAGES><X>960</X><Y>234</Y>
+			<CAPTION>
+				<CHIT>煤氣供應</CHIT>
+				<ENG>Gas Supply</ENG>
+			</CAPTION>
+			<FILES>
+				<CHIT>./data/movies/content.mp4</CHIT>
+			</FILES>
+			<NEXT_PAGE>-1</NEXT_PAGE>
+			<MESSAGE>A</MESSAGE>
+		</BUTTON>
+		<BUTTON name="p_1_1_btn_4">
+			<SHOW_LABLE>0</SHOW_LABLE>
+			<IMAGES>
+				<FILE>./data/images/btn_4_cn.png</FILE>
+				<FILE>./data/images/btn_4_on_cn.png</FILE>
+			</IMAGES><X>960</X><Y>320</Y>
+			<CAPTION>
+				<CHIT>水供應</CHIT>
+				<ENG>Water Supply</ENG>
+			</CAPTION>
+			<FILES>
+				<CHIT>./data/movies/video_015.mp4</CHIT>
+			</FILES>
+			<NEXT_PAGE>-1</NEXT_PAGE>
+			<MESSAGE>A</MESSAGE>
+		</BUTTON>
+		<BUTTON name="p_1_1_btn_5">
+			<SHOW_LABLE>0</SHOW_LABLE>
+			<IMAGES>
+				<FILE>./data/images/btn_5_cn.png</FILE>
+				<FILE>./data/images/btn_5_on_cn.png</FILE>
+			</IMAGES><X>960</X><Y>406</Y>
+			<CAPTION>
+				<CHIT>污水處理</CHIT>
+				<ENG>Sewage Treatment</ENG>
+			</CAPTION>
+			<FILES>
+				<CHIT>./data/movies/video_017.mp4</CHIT>
+			</FILES>
+			<NEXT_PAGE>-1</NEXT_PAGE>
+			<MESSAGE>A</MESSAGE>
+		</BUTTON>
+		<BUTTON name="p_1_1_btn_6">
+			<SHOW_LABLE>0</SHOW_LABLE>
+			<IMAGES>
+				<FILE>./data/images/btn_6_cn.png</FILE>
+				<FILE>./data/images/btn_6_on_cn.png</FILE>
+			</IMAGES><X>960</X><Y>492</Y>
+			<CAPTION>
+				<CHIT>電訊傳輸</CHIT>
+				<ENG>Data Communication</ENG>
+			</CAPTION>
+			<FILES>
+				<CHIT>./data/movies/video_019.mp4</CHIT>
+			</FILES>
+			<NEXT_PAGE>-1</NEXT_PAGE>
+			<MESSAGE>A</MESSAGE>
+		</BUTTON>
+		<BUTTON name="p_1_btn_1">
+			<SHOW_LABLE>0</SHOW_LABLE><X>0</X><Y>62</Y>
+			<IMAGES>
+				<FILE>./data/images/btn_6_cn.png</FILE>
+				<FILE>./data/images/btn_6_on_cn.png</FILE>
+			</IMAGES>
+			<CAPTION>
+				<CHIT>地下運輸</CHIT>
+				<ENG>Underground Trasnportation</ENG>
+			</CAPTION>
+			<FILES>
+				 <!-- <CHIT>./data/movies/video_008.mp4</CHIT><ENG>./data/movies/video_009.mp4</ENG>  -->
+				 </FILES>
+			<NEXT_PAGE>p_1</NEXT_PAGE>
+			<MESSAGE>C</MESSAGE>
+		</BUTTON>
+		<BUTTON name="home">
+			<SHOW_LABLE>0</SHOW_LABLE>
+			<IMAGES>
+				<FILE>./data/images/home_cn.png</FILE>
+				<FILE>./data/images/home_cn.png</FILE>
+			</IMAGES>
+			<IMAGES>
+				<FILE>./data/images/home_en.png</FILE>
+				<FILE>./data/images/home_en.png</FILE>
+			</IMAGES><X>1750</X><Y>520</Y>
+			<CAPTION>
+				<CHIT>主頁</CHIT>
+				<ENG>Home</ENG>
+			</CAPTION>
+			<FILES>
+				<CHIT>./data/movies/screenSaver.mp4</CHIT>
+			</FILES>
+			<NEXT_PAGE>p0</NEXT_PAGE>
+			<MESSAGE>A</MESSAGE>
+		</BUTTON>
+	</PAGE>
+	<PAGE name="p_1_1_1">
+		<BACKGROUND>
+			<IN>
+				<X>0</X><Y>0</Y>
+			</IN>
+			<OUT>
+				<X>960</X><Y>0</Y>
+			</OUT>
+			<IMAGES>
+				<FILE>./data/images/frame_cn.png</FILE>
+				<FILE>./data/images/frame_en.png</FILE>
+			</IMAGES>
+		</BACKGROUND>
+		<!--page4-->
+		<BUTTON name="p_1_1_btn_1">
+			<SHOW_LABLE>0</SHOW_LABLE><X>960</X><Y>62</Y>
+			<IMAGES>
+				<FILE>./data/images/btn_1_cn.png</FILE>
+				<FILE>./data/images/btn_1_on_cn.png</FILE>
+			</IMAGES>
+			<CAPTION>
+				<CHIT>地下運輸</CHIT>
+				<ENG>Underground Trasnportation</ENG>
+			</CAPTION>
+			<FILES>
+				<CHIT>./data/movies/video_008.mp4</CHIT>
+			</FILES>
+			<NEXT_PAGE>p_1_1_1</NEXT_PAGE>
+			<MESSAGE>A</MESSAGE>
+		</BUTTON>
+		<BUTTON name="p_1_1_btn_2">
+			<SHOW_LABLE>0</SHOW_LABLE>
+			<IMAGES>
+				<FILE>./data/images/btn_2_cn.png</FILE>
+				<FILE>./data/images/btn_2_on_cn.png</FILE>
+			</IMAGES><X>960</X><Y>148</Y>
+			<CAPTION>
+				<CHIT>電力供應</CHIT>
+				<ENG>Electric Supply</ENG>
+			</CAPTION>
+			<FILES>
+				<CHIT>./data/movies/video_010.mp4</CHIT>
+			</FILES>
+			<NEXT_PAGE>-1</NEXT_PAGE>
+			<MESSAGE>A</MESSAGE>
+		</BUTTON>
+		<BUTTON name="p_1_1_btn_3">
+			<SHOW_LABLE>0</SHOW_LABLE>
+			<IMAGES>
+				<FILE>./data/images/btn_3_cn.png</FILE>
+				<FILE>./data/images/btn_3_on_cn.png</FILE>
+			</IMAGES><X>960</X><Y>234</Y>
+			<CAPTION>
+				<CHIT>煤氣供應</CHIT>
+				<ENG>Gas Supply</ENG>
+			</CAPTION>
+			<FILES>
+				<CHIT>./data/movies/content.mp4</CHIT>
+			</FILES>
+			<NEXT_PAGE>-1</NEXT_PAGE>
+			<MESSAGE>A</MESSAGE>
+		</BUTTON>
+		<BUTTON name="p_1_1_btn_4">
+			<SHOW_LABLE>0</SHOW_LABLE>
+			<IMAGES>
+				<FILE>./data/images/btn_4_cn.png</FILE>
+				<FILE>./data/images/btn_4_on_cn.png</FILE>
+			</IMAGES><X>960</X><Y>320</Y>
+			<CAPTION>
+				<CHIT>水供應</CHIT>
+				<ENG>Water Supply</ENG>
+			</CAPTION>
+			<FILES>
+				<CHIT>./data/movies/video_015.mp4</CHIT>
+			</FILES>
+			<NEXT_PAGE>-1</NEXT_PAGE>
+			<MESSAGE>A</MESSAGE>
+		</BUTTON>
+		<BUTTON name="p_1_1_btn_5">
+			<SHOW_LABLE>0</SHOW_LABLE>
+			<IMAGES>
+				<FILE>./data/images/btn_5_cn.png</FILE>
+				<FILE>./data/images/btn_5_on_cn.png</FILE>
+			</IMAGES><X>960</X><Y>406</Y>
+			<CAPTION>
+				<CHIT>污水處理</CHIT>
+				<ENG>Sewage Treatment</ENG>
+			</CAPTION>
+			<FILES>
+				<CHIT>./data/movies/video_017.mp4</CHIT>
+			</FILES>
+			<NEXT_PAGE>-1</NEXT_PAGE>
+			<MESSAGE>A</MESSAGE>
+		</BUTTON>
+		<BUTTON name="p_1_1_btn_1">
+			<SHOW_LABLE>0</SHOW_LABLE><X>0</X><Y>62</Y>
+			<IMAGES>
+				<FILE>./data/images/btn_1_cn.png</FILE>
+				<FILE>./data/images/btn_1_on_cn.png</FILE>
+			</IMAGES>
+			<CAPTION>
+				<CHIT>地下運輸</CHIT>
+				<ENG>Underground Trasnportation</ENG>
+			</CAPTION>
+			<FILES>
+				<CHIT>./data/movies/video_008.mp4</CHIT>
+			</FILES>
+			<NEXT_PAGE>p_1_1</NEXT_PAGE>
+			<MESSAGE>A</MESSAGE>
+		</BUTTON>
+		<BUTTON name="home">
+			<SHOW_LABLE>0</SHOW_LABLE>
+			<!--home-->
+			<IMAGES>
+				<FILE>./data/images/home_cn.png</FILE>
+				<FILE>./data/images/home_cn.png</FILE>
+			</IMAGES>
+			<IMAGES>
+				<FILE>./data/images/home_en.png</FILE>
+				<FILE>./data/images/home_en.png</FILE>
+			</IMAGES><X>1750</X><Y>520</Y>
+			<CAPTION>
+				<CHIT>主頁</CHIT>
+				<ENG>Home</ENG>
+			</CAPTION>
+			<FILES>
+				<CHIT>./data/movies/screenSaver.mp4</CHIT>
+			</FILES>
+			<NEXT_PAGE>p0</NEXT_PAGE>
+			<MESSAGE>A</MESSAGE>
+		</BUTTON>
+	</PAGE>
+</XML>
