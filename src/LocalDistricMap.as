@@ -44,6 +44,7 @@
 		var client:BridgeClient;
 		var dropdownList:customDropDownList;
 		var fader:Fader;
+<<<<<<< HEAD
 		var isVidPause:Boolean = false;
 		var isWaitingFinish:Boolean = false;
 		var waitingSprite:customButton;
@@ -55,6 +56,15 @@
 
 			init();
 			fader = new Fader(this,new BitmapData(1920,1080));
+=======
+		public function LocalDistricMap()
+		{
+			
+			super();
+
+			init();
+			fader = new Fader(this,new BitmapData(1920 ,1080));
+>>>>>>> a972f0fa2044c2d13fb025d8848a7b5701ff9ff6
 			stage.addChild(fader);
 		}
 		private function init():void
@@ -70,7 +80,13 @@
 			flvplayer._player.addEventListener(MediaEvent.ERROR, doMediaError);
 			flvplayer._player.addEventListener(MediaTimeEvent.DURATION, doMediaDuration);
 			flvplayer._player.addEventListener(MediaTimeEvent.TIME, doMediaTime);
+<<<<<<< HEAD
 			flvplayer._player.addEventListener(MediaCuePointEvent.CUE_POINT, onCuePoint);
+=======
+			flvplayer._player.addEventListener(MediaCuePointEvent.CUE_POINT,function onCuePoint(e:MediaCuePointEvent):void{
+											   	Logger.debug("MediaCuePointEvent: "+e.name);
+											   });
+>>>>>>> a972f0fa2044c2d13fb025d8848a7b5701ff9ff6
 			CommonProperties.initFont();
 			format1 = CommonProperties.format1;
 			format2 = CommonProperties.format2;
@@ -82,7 +98,11 @@
 			//minterface.getPageByName("p0").addChild(dropdownList);// = new customDropDownList(minterface.buttons);
 			
 			});
+<<<<<<< HEAD
 /*addChild(new customDropDownList(new SmoothingBitmapLoader("./data/images/btn_6_cn.png"),
+=======
+			/*addChild(new customDropDownList(new SmoothingBitmapLoader("./data/images/btn_6_cn.png"),
+>>>>>>> a972f0fa2044c2d13fb025d8848a7b5701ff9ff6
 			new SmoothingBitmapLoader("./data/images/btn_6_cn.png"),
 			new SmoothingBitmapLoader("./data/images/btn_6_cn.png"),
 			new SmoothingBitmapLoader("./data/images/btn_6_cn.png"),
@@ -239,6 +259,7 @@
 
 					setPageOrder(pages,minterface.getPageByName("p0"),ssFilePath);
 					flvplayer.setLoop(true);
+<<<<<<< HEAD
 					
 					STATE = PLAYING_SCREEN_SAVER;
 					break;
@@ -290,6 +311,39 @@
 				}
 			}
 		}
+=======
+					STATE = PLAYING_SCREEN_SAVER;
+
+					break;
+				default :
+				if(STATE == PLAYING_SCREEN_SAVER)
+				{
+					fader.draw(this);
+				}
+				STATE = PLAYING_CONTENT;
+					var targetButtons = e.target as customButton;
+					if (targetButtons)
+					{
+
+						if (targetButtons.path != "")
+						{
+
+							client.sendString(targetButtons.xml.MESSAGE);
+							NextPage(targetButtons.path,targetButtons.caption,targetButtons.nextPage);
+						}
+						else
+						{
+							client.sendString(targetButtons.xml.MESSAGE);
+							NextPage("",targetButtons.caption,targetButtons.nextPage);
+						}
+					}
+					break;
+			}
+
+
+		}
+
+>>>>>>> a972f0fa2044c2d13fb025d8848a7b5701ff9ff6
 		public function startVid(__parent:MovieClip , path:String , _width:int=1920 , _height:int=1080 , _x:int=0 , _y:int=0):void
 		{
 
@@ -308,8 +362,12 @@
 			{
 				vidParent.addChild(flvplayer);
 
+<<<<<<< HEAD
 				vidParent.setChildIndex(flvplayer,vidParent.numChildren-1);
 				//vidParent.numChildren-1);
+=======
+				vidParent.setChildIndex(flvplayer,0);//vidParent.numChildren-1);
+>>>>>>> a972f0fa2044c2d13fb025d8848a7b5701ff9ff6
 				flvplayer.startVid(path);
 			}
 			catch (error:Error)
@@ -358,7 +416,10 @@
 		protected function doMediaStarted(evt:MediaEvent):void
 		{
 			//ss.stop();
+<<<<<<< HEAD
 			mediaPlaying = true;
+=======
+>>>>>>> a972f0fa2044c2d13fb025d8848a7b5701ff9ff6
 			if (config.debugMode)
 			{
 
@@ -368,10 +429,14 @@
 
 		protected function doMediaFinished(evt:MediaEvent):void
 		{
+<<<<<<< HEAD
 			fader.draw(this);
 			mediaPlaying = false;
 			Logger.debug(STATE);
 			vidParent.setChildIndex(flvplayer,0);
+=======
+			Logger.debug(STATE);
+>>>>>>> a972f0fa2044c2d13fb025d8848a7b5701ff9ff6
 			switch (STATE)
 			{
 				case PLAYING_SCREEN_SAVER :
@@ -402,6 +467,7 @@
 					break;*/
 				default :
 					stopVid();
+<<<<<<< HEAD
 
 					if (isWaitingFinish)
 					{
@@ -411,6 +477,8 @@
 						processButtonAction(waitingSprite);
 					}
 
+=======
+>>>>>>> a972f0fa2044c2d13fb025d8848a7b5701ff9ff6
 					break;
 			}
 			if (config.debugMode)
@@ -441,6 +509,7 @@
 				//Logger.debug("media is at " + evt.time + " seconds");
 			}
 		}
+<<<<<<< HEAD
 		function onCuePoint(e:MediaCuePointEvent):void
 		{
 			Logger.debug("MediaCuePointEvent: "+e.name);
@@ -455,6 +524,8 @@
 					break;
 			}
 		}
+=======
+>>>>>>> a972f0fa2044c2d13fb025d8848a7b5701ff9ff6
 		function playbackFX(snd:*):void
 		{
 /*var sound:Sound = snd as Sound;
@@ -466,7 +537,11 @@
 		{
 			try
 			{
+<<<<<<< HEAD
 
+=======
+				
+>>>>>>> a972f0fa2044c2d13fb025d8848a7b5701ff9ff6
 				if (arg2!=arg1)
 				{
 					oldSprite = arg1;

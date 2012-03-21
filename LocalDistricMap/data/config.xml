@@ -3,7 +3,11 @@
 	<IP>127.0.0.1</IP>
 	<PORT>2838</PORT>
 	<IDLE>300</IDLE>
+<<<<<<< HEAD
 	<SCREENSAVER>./data/movies/screenSaver.mp4</SCREENSAVER>
+=======
+	<SCREENSAVER>./data/movies/Quene point test.flv</SCREENSAVER>
+>>>>>>> a972f0fa2044c2d13fb025d8848a7b5701ff9ff6
 	<!-- page 1 language button -->
 	<PAGE name="p0">
 		<!--page1-->
@@ -17,7 +21,11 @@
 				<CHIT>中文</CHIT>
 			</CAPTION>
 			<FILES>
+<<<<<<< HEAD
 				<CHIT>./data/movies/Quene point test.flv</CHIT>
+=======
+				<CHIT>./data/movies/video_002.mp4</CHIT>
+>>>>>>> a972f0fa2044c2d13fb025d8848a7b5701ff9ff6
 			</FILES>
 			<NEXT_PAGE>p_1</NEXT_PAGE>
 			<MESSAGE>A</MESSAGE>
@@ -106,7 +114,11 @@
 			<MESSAGE>A</MESSAGE>
 		</BUTTON>
 		
+<<<<<<< HEAD
 		<!-- <LIST>
+=======
+		<LIST>
+>>>>>>> a972f0fa2044c2d13fb025d8848a7b5701ff9ff6
 			<X>960</X><Y>62</Y>
 			<BUTTON name="p_1_btn_6_1">
 				<IMAGES>
@@ -177,7 +189,11 @@
 				<NEXT_PAGE>-1</NEXT_PAGE>
 				<MESSAGE>F</MESSAGE>
 			</BUTTON>
+<<<<<<< HEAD
 		</LIST> -->
+=======
+		</LIST>
+>>>>>>> a972f0fa2044c2d13fb025d8848a7b5701ff9ff6
 	</PAGE>
 	<PAGE name="p_1_1">
 		<BACKGROUND>
